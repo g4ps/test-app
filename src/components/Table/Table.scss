@@ -1,0 +1,36 @@
+.table {
+    border: 2px solid black;
+    max-width: 650px;
+    tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+    }
+    .tableRow {
+        height: 24px;
+        display: flex;
+        align-items: center;
+    }
+    .id {
+        width: 10%;
+    }
+    .dateSend {
+        width: 30%
+    }
+    .fStart {
+        width: 40%;
+    }
+    .fEnd {
+        width: 20%;
+    }
+    .dButton {
+        background: none;
+        border: none;
+    }
+    .cr {
+        width: 24px;
+        height: 24px;
+    }
+}
+
